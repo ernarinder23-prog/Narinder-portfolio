@@ -6,7 +6,6 @@ import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
-import config from '../../config'
 import profile from '../../images/anuj.jpg'
 
 const Home = () => {
