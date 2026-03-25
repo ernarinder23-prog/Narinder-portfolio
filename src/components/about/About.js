@@ -18,10 +18,10 @@ const About = () => {
         <meta property="og:title" content="Narinder Singh - Software Engineer & Backend Developer" />
         <meta property="og:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in backend development and full-stack technologies." />
         <meta property="og:type" content="profile" />
-        <meta property="og:image" content="https://www.anujraghuvanshi.site/navi.jpg" />
+        <meta property="og:image" content="https://narinder-portfolio.vercel.app/navi.jpg" />
         <meta name="twitter:title" content="Narinder Singh - Software Engineer & Backend Developer" />
         <meta name="twitter:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in backend development and full-stack technologies." />
-        <meta name="twitter:image" content="https://www.anujraghuvanshi.site/navi.jpg" />
+        <meta name="twitter:image" content="https://narinder-portfolio.vercel.app/navi.jpg" />
 
         {/* Structured Data for Person */}
         <script type="application/ld+json">
@@ -31,8 +31,8 @@ const About = () => {
             "name": "Narinder Singh",
             "jobTitle": "Software Engineer",
             "description": "A passionate software engineer with expertise in backend development and full-stack technologies.",
-            "url": "https://www.anujraghuvanshi.site",
-            "image": "https://www.anujraghuvanshi.site/navi.jpg",
+            "url": "https://narinder-portfolio.vercel.app/",
+            "image": "https://narinder-portfolio.vercel.app/navi.jpg",
             "alumniOf": {
               "@type": "EducationalOrganization",
               "name": "Lovely Professional University",

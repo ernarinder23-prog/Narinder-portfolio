@@ -32,7 +32,7 @@ const Home = () => {
             "name": "Narinder Singh",
             "jobTitle": "Software Engineer",
             "description": "Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development.",
-            "url": "https://www.anujraghuvanshi.site",
+            "url": "https://narinder-portfolio.vercel.app",
             "image": "https://narinder-portfolio.vercel.app/navi.png",
             "sameAs": [
               "https://github.com/ernarinder23-prog",
@@ -85,7 +85,7 @@ const Home = () => {
             <Bounce cascade>
               <div className="resume-container">
                 <a
-                  href="https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing"
+                  href="https://narinder-portfolio.vercel.app/narinder-cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Download Narinder Singh's resume"

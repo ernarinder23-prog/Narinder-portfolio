@@ -4,8 +4,8 @@ export const seoConfig = {
     description: "Hey! I'm Narinder Singh, a software engineer with a focus on Backend Development along with having knowledge of full-stack development.",
     keywords: "Narinder Singh, software engineer, backend developer, full-stack developer, India, portfolio",
     author: "Narinder Singh",
-    url: "https://www.anujraghuvanshi.site",
-    image: "https://www.anujraghuvanshi.site/profile.jpeg",
+    url: "https://narinder-portfolio.vercel.app",
+    image: "https://narinder-portfolio.vercel.app/profile.jpeg",
     type: "website"
   },
 
@@ -36,8 +36,8 @@ export const structuredData = {
     "name": "Narinder Singh",
     "jobTitle": "Software Engineer",
     "description": "A passionate software engineer specializing in Backend Development with full-stack technologies.",
-    "url": "https://www.anujraghuvanshi.site",
-    "image": "https://www.anujraghuvanshi.site/profile.jpeg",
+    "url": "https://narinder-portfolio.vercel.app",
+    "image": "https://narinder-portfolio.vercel.app/profile.jpeg",
     "sameAs": [
       "https://github.com/ernarinder23-prog",
       "https://www.linkedin.com/in/ernarinder23",
@@ -73,7 +73,7 @@ export const structuredData = {
     "@type": "WebSite",
     "name": "Narinder Singh Portfolio",
     "description": "Personal portfolio website showcasing Narinder Singh's skills, experience, and projects in software development.",
-    "url": "https://www.anujraghuvanshi.site",
+    "url": "https://narinder-portfolio.vercel.app",
     "author": {
       "@type": "Person",
       "name": "Narinder Singh"
@@ -84,7 +84,7 @@ export const structuredData = {
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://www.anujraghuvanshi.site/search?q={search_term_string}",
+      "target": "https://narinder-portfolio.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
