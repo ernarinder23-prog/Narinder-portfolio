@@ -113,7 +113,7 @@ const ContactForm = () => {
       <form
         className="contact-form"
         onSubmit={submitForm}
-        action="https://formspree.io/f/xayvejyv"
+        action="https://formcarry.com/s/NCqa1GSDeb4"
         method="POST"
       >
         <TextField
