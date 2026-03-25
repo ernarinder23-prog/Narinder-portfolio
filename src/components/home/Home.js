@@ -85,7 +85,7 @@ const Home = () => {
             <Bounce cascade>
               <div className="resume-container">
                 <a
-                  href="https://narinder-portfolio.vercel.app/narinder-cv.pdf"
+                  href="https://drive.google.com/file/d/1rqDhErYyen7JXE3SkK4Ip0ImvXGJOeT8/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Download Narinder Singh's resume"
