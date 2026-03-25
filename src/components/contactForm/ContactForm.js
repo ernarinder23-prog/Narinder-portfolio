@@ -73,29 +73,34 @@ const ContactForm = () => {
 
   const submitForm = (ev) => {
     ev.preventDefault()
-    console.log('submitForm', emailText, messageText)
     if (!emailText || !messageText) {
       setStatus('Please Complete the form to contact.')
       return
     }
+    setStatus('SENDING')
 
-    const form = ev.target
-    const data = new FormData(form)
-    const xhr = new XMLHttpRequest()
-    xhr.open(form.method, form.action)
-    xhr.setRequestHeader('Accept', 'application/json')
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return
-      if (xhr.status === 200) {
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        email: emailText,
+        message: messageText,
+      }),
+    })
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Request failed')
+        }
         setEmailText('')
         setMessageText('')
-        form.reset()
         setStatus('SUCCESS')
-      } else {
+      })
+      .catch(() => {
         setStatus('ERROR')
-      }
-    }
-    xhr.send(data)
+      })
   }
 
   const handleEmailChange = (event) => {
@@ -113,7 +118,7 @@ const ContactForm = () => {
       <form
         className="contact-form"
         onSubmit={submitForm}
-        action="https://formcarry.com/s/NCqa1GSDeb4"
+        action="#"
         method="POST"
       >
         <TextField
@@ -138,6 +143,8 @@ const ContactForm = () => {
         />
         {status === 'SUCCESS' ? (
           <p className="email-success">Thanks!</p>
+        ) : status === 'SENDING' ? (
+          <p className="email-success">Sending...</p>
         ) : (
           <Button className={classes.submit} type="submit" variant="contained">
             Submit
