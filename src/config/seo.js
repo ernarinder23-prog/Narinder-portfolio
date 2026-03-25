@@ -1,30 +1,30 @@
 export const seoConfig = {
   default: {
-    title: "Anuj Singh - Software Engineer & Mobile App Developer",
-    description: "Hey! I'm Anuj Singh, a software engineer with a focus on Mobile App Development along with having knowledge of full-stack development.",
-    keywords: "Anuj Singh, software engineer, mobile app developer, React Native, full-stack developer, India, portfolio",
-    author: "Anuj Singh",
+    title: "Narinder Singh - Software Engineer & Backend Developer",
+    description: "Hey! I'm Narinder Singh, a software engineer with a focus on Backend Development along with having knowledge of full-stack development.",
+    keywords: "Narinder Singh, software engineer, backend developer, full-stack developer, India, portfolio",
+    author: "Narinder Singh",
     url: "https://www.anujraghuvanshi.site",
     image: "https://www.anujraghuvanshi.site/profile.jpeg",
     type: "website"
   },
 
   home: {
-    title: "Anuj Singh - Software Engineer & Mobile App Developer | Home",
-    description: "Hi! I'm Anuj Singh, a passionate software engineer specializing in Mobile App Development.",
-    keywords: "Anuj Singh, software engineer, mobile app developer, React Native, portfolio, India, home"
+    title: "Narinder Singh - Software Engineer & Backend Developer | Home",
+    description: "Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development.",
+    keywords: "Narinder Singh, software engineer, backend developer, portfolio, India, home"
   },
 
   about: {
-    title: "Anuj Singh - Software Engineer & Mobile App Developer",
-    description: "Learn more Anuj Singh, a passionate software engineer with expertise in mobile app development.",
-    keywords: "Anuj Singh, software engineer background, mobile app developer experience"
+    title: "Narinder Singh - Software Engineer & Backend Developer",
+    description: "Learn more Narinder Singh, a passionate software engineer with expertise in backend development.",
+    keywords: "Narinder Singh, software engineer background, backend developer experience"
   },
 
   skills: {
-    title: "Skills & Technologies - Anuj Singh | Software Engineer",
-    description: "Explore Anuj Singh's technical skills including React Native, JavaScript, Node.js, and mobile app development.",
-    keywords: "Anuj Singh skills, React Native developer, JavaScript developer, mobile app development skills"
+    title: "Skills & Technologies - Narinder Singh | Software Engineer",
+    description: "Explore Narinder Singh's technical skills including JavaScript, Node.js, and backend development.",
+    keywords: "Narinder Singh skills, backend developer, JavaScript developer, backend development skills"
   }
 };
 
@@ -33,27 +33,28 @@ export const structuredData = {
   person: {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Anuj Singh",
+    "name": "Narinder Singh",
     "jobTitle": "Software Engineer",
-    "description": "A passionate software engineer specializing in Mobile App Development with React Native and full-stack technologies.",
+    "description": "A passionate software engineer specializing in Backend Development with full-stack technologies.",
     "url": "https://www.anujraghuvanshi.site",
     "image": "https://www.anujraghuvanshi.site/profile.jpeg",
     "sameAs": [
-      "https://github.com/anujsingh",
-      "https://linkedin.com/in/anujsingh",
-      "https://twitter.com/anujsingh"
+      "https://github.com/ernarinder23-prog",
+      "https://www.linkedin.com/in/ernarinder23",
+      "https://www.instagram.com/n.a.v.i_263",
+      "https://www.threads.com/@n.a.v.i_263",
+      "https://stackoverflow.com/users/32539891/narinder-singh"
     ],
     "worksFor": {
       "@type": "Organization",
       "name": "Freelance"
     },
     "knowsAbout": [
-      "Mobile App Development",
-      "React Native",
+      "Backend Development",
       "Full-Stack Development",
       "JavaScript",
       "Node.js",
-      "Mobile Applications",
+      "API Development",
       "Web Development"
     ],
     "address": {
@@ -70,16 +71,16 @@ export const structuredData = {
   website: {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Anuj Singh Portfolio",
-    "description": "Personal portfolio website showcasing Anuj Singh's skills, experience, and projects in software development.",
+    "name": "Narinder Singh Portfolio",
+    "description": "Personal portfolio website showcasing Narinder Singh's skills, experience, and projects in software development.",
     "url": "https://www.anujraghuvanshi.site",
     "author": {
       "@type": "Person",
-      "name": "Anuj Singh"
+      "name": "Narinder Singh"
     },
     "publisher": {
       "@type": "Person",
-      "name": "Anuj Singh"
+      "name": "Narinder Singh"
     },
     "potentialAction": {
       "@type": "SearchAction",

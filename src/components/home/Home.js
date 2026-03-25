@@ -6,42 +6,43 @@ import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
-import profile from '../../images/anuj.jpg'
+import profile from '../../images/navi.png'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
   return (
     <>
       <Helmet>
-        <title>Anuj Singh - Software Engineer & Mobile App Developer | Home</title>
-        <meta name="description" content="Hi! I'm Anuj Singh, a passionate software engineer specializing in Mobile App Development. I love learning new technologies and meeting new people." />
-        <meta name="keywords" content="Anuj Singh, software engineer, mobile app developer, React Native, portfolio, India" />
-        <meta property="og:title" content="Anuj Singh - Software Engineer & Mobile App Developer" />
-        <meta property="og:description" content="Hi! I'm Anuj Singh, a passionate software engineer specializing in Mobile App Development. I love learning new technologies and meeting new people." />
+        <title>Narinder Singh - Software Engineer & Backend Developer | Home</title>
+        <meta name="description" content="Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development. I love learning new technologies and meeting new people." />
+        <meta name="keywords" content="Narinder Singh, software engineer, backend developer, React, Node.js, portfolio, India" />
+        <meta property="og:title" content="Narinder Singh - Software Engineer & Backend Developer" />
+        <meta property="og:description" content="Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development. I love learning new technologies and meeting new people." />
         <meta property="og:type" content="profile" />
-        <meta property="og:image" content="https://www.anujraghuvanshi.site/anuj.jpg" />
-        <meta name="twitter:title" content="Anuj Singh - Software Engineer & Mobile App Developer" />
-        <meta name="twitter:description" content="Hi! I'm Anuj Singh, a passionate software engineer specializing in Mobile App Development." />
-        <meta name="twitter:image" content="https://www.anujraghuvanshi.site/anuj.jpg" />
+        <meta property="og:image" content="https://narinder-portfolio.vercel.app/navi.png" />
+        <meta name="twitter:title" content="Narinder Singh - Software Engineer & Backend Developer" />
+        <meta name="twitter:description" content="Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development." />
+        <meta name="twitter:image" content="https://narinder-portfolio.vercel.app/navi.png" />
 
         {/* Structured Data for Person */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Anuj Singh",
+            "name": "Narinder Singh",
             "jobTitle": "Software Engineer",
-            "description": "Hi! I'm Anuj Singh, a passionate software engineer specializing in Mobile App Development.",
+            "description": "Hi! I'm Narinder Singh, a passionate software engineer specializing in Backend Development.",
             "url": "https://www.anujraghuvanshi.site",
-            "image": "https://www.anujraghuvanshi.site/anuj.jpg",
+            "image": "https://narinder-portfolio.vercel.app/navi.png",
             "sameAs": [
-              "https://github.com/anujsingh",
-              "https://linkedin.com/in/anujsingh",
-              "https://twitter.com/anujsingh"
+              "https://github.com/ernarinder23-prog",
+              "https://stackoverflow.com/users/32539891/narinder-singh",
+              "https://www.linkedin.com/in/ernarinder23",
+              "https://www.instagram.com/n.a.v.i_263",
+              "https://www.threads.com/@n.a.v.i_263"
             ],
             "knowsAbout": [
-              "Mobile App Development",
-              "React Native",
+              "Backend Development",
               "Full-Stack Development",
               "JavaScript",
               "Node.js"
@@ -55,12 +56,12 @@ const Home = () => {
           <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
             <img
               className="profile"
-              alt="Anuj Singh profile"
+              alt="Narinder Singh profile"
               src={profile}
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Anuj Singh</span>.{' '}
+              Hi, I'm <span className="name">Narinder Singh</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -87,7 +88,7 @@ const Home = () => {
                   href="https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Download Anuj Singh's resume"
+                  aria-label="Download Narinder Singh's resume"
                 >
                   Download Resume
                 </a>

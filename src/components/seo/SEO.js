@@ -2,10 +2,10 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({
-  title = "Anuj Singh - Software Engineer & Mobile App Developer",
-  description = "Hey! I'm Anuj Singh, a software engineer with a focus on Mobile App Development along with having knowledge of full-stack development. I am passionate about learning new things from new people.",
-  keywords = "Anuj Singh, software engineer, mobile app developer, React Native, full-stack developer, India, portfolio",
-  author = "Anuj Singh",
+  title = "Narinder Singh - Software Engineer & Backend Developer",
+  description = "Hey! I'm Narinder Singh, a software engineer with a focus on Backend Development along with having knowledge of full-stack development. I am passionate about learning new things from new people.",
+  keywords = "Narinder Singh, software engineer, backend developer, full-stack developer, India, portfolio",
+  author = "Narinder Singh",
   url = "https://www.anujraghuvanshi.site",
   image = "https://www.anujraghuvanshi.site/profile.jpeg",
   type = "website",
@@ -15,27 +15,28 @@ const SEO = ({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Anuj Singh",
+    "name": "Narinder Singh",
     "jobTitle": "Software Engineer",
     "description": description,
     "url": url,
     "image": image,
     "sameAs": [
-      "https://github.com/anujsingh",
-      "https://linkedin.com/in/anujsingh",
-      "https://twitter.com/anujsingh"
+      "https://github.com/ernarinder23-prog",
+      "https://www.linkedin.com/in/ernarinder23",
+      "https://www.instagram.com/n.a.v.i_263",
+      "https://www.threads.com/@n.a.v.i_263",
+      "https://stackoverflow.com/users/32539891/narinder-singh"
     ],
     "worksFor": {
       "@type": "Organization",
       "name": "Freelance"
     },
     "knowsAbout": [
-      "Mobile App Development",
-      "React Native",
+      "Backend Development",
       "Full-Stack Development",
       "JavaScript",
       "Node.js",
-      "Mobile Applications"
+      "API Development"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -83,8 +84,8 @@ const SEO = ({
       </script>
 
       {/* Additional SEO Meta Tags */}
-      <meta name="application-name" content="Anuj Singh Portfolio" />
-      <meta name="apple-mobile-web-app-title" content="Anuj Singh" />
+      <meta name="application-name" content="Narinder Singh Portfolio" />
+      <meta name="apple-mobile-web-app-title" content="Narinder Singh" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 

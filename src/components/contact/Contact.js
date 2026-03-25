@@ -16,7 +16,7 @@ const Contact = () => {
       <Bounce cascade>
         <div className="links">
           <a
-            href="https://github.com/anujraghuvanshi"
+            href="https://github.com/ernarinder23-prog"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://stackoverflow.com/users/7078456/anuj-raghuvanshi"
+            href="https://stackoverflow.com/users/32539891/narinder-singh"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -32,7 +32,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/itsanujraghuvanshi"
+            href="https://www.linkedin.com/in/ernarinder23"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/javascript_essentials/"
+            href="https://www.instagram.com/n.a.v.i_263"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,11 +48,11 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://twitter.com/itsMrAnujSingh"
+            href="https://www.threads.com/@n.a.v.i_263"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="Facebook Logo" width="40px" />
+            <img src={twitter} alt="Twitter Logo" width="40px" />
           </a>
         </div>
       </Bounce>

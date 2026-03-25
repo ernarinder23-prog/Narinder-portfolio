@@ -3,6 +3,12 @@ import './ExperienceCard.css'
 
 const ExperienceCard = ({ experience }) => {
   let { link, company, title, dateFrom, dateTo, info, stack } = experience
+  const logos = require.context('../../images/logos', false, /\.(png|jpe?g|svg)$/)
+  const companySlug = company.replace(/ /g, '').toLowerCase()
+  const logoFile = `./${companySlug}.png`
+  const logoSrc = logos.keys().includes(logoFile)
+    ? logos(logoFile)
+    : logos('./project.jpg')
   return (
     <a
       className="experience-link"
@@ -29,9 +35,7 @@ const ExperienceCard = ({ experience }) => {
               ></div>
               <img
                 className="company-logo"
-                src={require(`../../images/logos/${company
-                  .replace(/ /g, '')
-                  .toLowerCase()}.png`)}
+                src={logoSrc}
                 alt={`${company}-logo`}
                 style={
                   experience.logoheight

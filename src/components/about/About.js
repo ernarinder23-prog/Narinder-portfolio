@@ -12,15 +12,15 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Narinder Singh - Software Engineer & Mobile App Developer</title>
-        <meta name="description" content="Learn more about Narinder Singh, a passionate software engineer with expertise in mobile app development, React Native, and full-stack technologies. Based in Punjab, India." />
-        <meta name="keywords" content="Narinder Singh, software engineer background, mobile app developer experience, React Native developer, MCA Lovely Professional University" />
-        <meta property="og:title" content="Narinder Singh - Software Engineer & Mobile App Developer" />
-        <meta property="og:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in mobile app development, React Native, and full-stack technologies." />
+        <title>Narinder Singh - Software Engineer & Backend Developer</title>
+        <meta name="description" content="Learn more about Narinder Singh, a passionate software engineer with expertise in backend development and full-stack technologies. Based in Punjab, India." />
+        <meta name="keywords" content="Narinder Singh, software engineer background, backend developer experience, MCA Lovely Professional University" />
+        <meta property="og:title" content="Narinder Singh - Software Engineer & Backend Developer" />
+        <meta property="og:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in backend development and full-stack technologies." />
         <meta property="og:type" content="profile" />
         <meta property="og:image" content="https://www.anujraghuvanshi.site/navi.jpg" />
-        <meta name="twitter:title" content="Narinder Singh - Software Engineer & Mobile App Developer" />
-        <meta name="twitter:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in mobile app development." />
+        <meta name="twitter:title" content="Narinder Singh - Software Engineer & Backend Developer" />
+        <meta name="twitter:description" content="Learn more Narinder Singh, a passionate software engineer with expertise in backend development and full-stack technologies." />
         <meta name="twitter:image" content="https://www.anujraghuvanshi.site/navi.jpg" />
 
         {/* Structured Data for Person */}
@@ -30,7 +30,7 @@ const About = () => {
             "@type": "Person",
             "name": "Narinder Singh",
             "jobTitle": "Software Engineer",
-            "description": "A passionate software engineer with expertise in mobile app development, React Native, and full-stack technologies.",
+            "description": "A passionate software engineer with expertise in backend development and full-stack technologies.",
             "url": "https://www.anujraghuvanshi.site",
             "image": "https://www.anujraghuvanshi.site/navi.jpg",
             "alumniOf": {
@@ -39,13 +39,11 @@ const About = () => {
               "degree": "MCA"
             },
             "knowsAbout": [
-              "Mobile App Development",
-              "React Native",
-              "React.js",
+              "Laravel",
+              "Core PHP",
+              "Node.js",
+              "Next.js",
               "JavaScript",
-              "Angular",
-              "Android Development",
-              "iOS Development",
               "Full-Stack Development"
             ],
             "address": {
@@ -72,7 +70,7 @@ const About = () => {
             <div className="about-text">
               <h2>Who am I?</h2>
               <p>
-                I'm Anuj{' '}
+                I'm Narinder{' '}
                 <span role="img" aria-label="lightning">
                   😄
                 </span>{' '}
@@ -81,7 +79,7 @@ const About = () => {
                 <span role="img" aria-label="lightning">
                   ⚡
                 </span>{' '}
-                Hey! I'm a software engineer with a focus on Mobile App Development along with having knowledge of full-stack development. I am passionate about learning new things from new people.
+                Hey! I'm a software engineer with a focus on Web & backend Development along with having knowledge of full-stack development. I am passionate about learning new things from new people.
               </p>
               <p>
                 <span role="img" aria-label="lightning">
@@ -93,7 +91,7 @@ const About = () => {
                 <span role="img" aria-label="lightning">
                   ⚡
                 </span>{' '}
-                I work with React Native, React.js, javascript, Angular, Android & iOS.
+                I work with Core PHP, Laravel, Node.js, Next.js.
               </p>
               <div className="typewriter">
                 <p className="typewriter-start">
@@ -118,8 +116,8 @@ const About = () => {
                 <p>.</p>
               </div>
               <p>
-                Since 2016 - I've spent my time seeking and learning new
-                technologies in Mobile & Web App Development. This has led to me
+                Since 2019 - I've spent my time seeking and learning new
+                technologies in Web Development. This has led to me
                 working on some amazing world-class{' '}
                 <Link
                   className="textLink"
