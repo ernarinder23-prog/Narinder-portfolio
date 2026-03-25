@@ -14,6 +14,9 @@ module.exports = async (req, res) => {
   }
 
   try {
+    if (!process.env.SMTP_HOST) {
+      throw new Error('SMTP_HOST is missing')
+    }
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT || 465),
