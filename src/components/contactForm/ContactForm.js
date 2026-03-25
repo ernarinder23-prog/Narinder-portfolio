@@ -142,7 +142,7 @@ const ContactForm = () => {
           variant="filled"
         />
         {status === 'SUCCESS' ? (
-          <p className="email-success">Thanks!</p>
+          <p className="email-success">Thanks !</p>
         ) : status === 'SENDING' ? (
           <p className="email-success">Sending...</p>
         ) : (
