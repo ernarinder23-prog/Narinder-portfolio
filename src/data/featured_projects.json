@@ -148,6 +148,27 @@
         }
       ],
       "type": "web"
+    },
+    {
+      "name": "Chatbot AI 🌐",
+      "link": "https://support-ai-lovat.vercel.app/",
+      "description": "Full-stack AI customer support chatbot with Next.js, Google GenAI, enterprise auth, and embeddable dashboard.",
+      "colour": "linear-gradient(to bottom right, rgb(193, 56, 85),rgb(230, 162, 53))",
+      "languages": [
+        {
+          "name": "Ethereum",
+          "color": "#000"
+        },
+        {
+          "name": "Solidity",
+          "color": "#000"
+        },
+        {
+          "name": "React.js",
+          "color": "#5fd3f3"
+        }
+      ],
+      "type": "web"
     }
   ]
 }
