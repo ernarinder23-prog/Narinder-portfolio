@@ -8,8 +8,8 @@
       "dateFrom": "Dec 2020",
       "dateTo": "Mar 2023",
       "info": [
-        "Designed and deployed scalable, highly available, and fault-tolerant websites on Laravel with 2 years of experience in software product development.",
-        "Team Management along with Sprint & Release plans."
+        "Designed and deployed scalable, highly available, and fault-tolerant web applications using Laravel with 2 years of experience in software product development",
+        "Developed and maintained REST APIs and strong command of HTML, JavaScript, and CSS, along with hands-on experience in Object-Oriented Programming (OOP), MVC architecture,and database design for dynamic web applications"
       ],
       "stack": [
         "Laravel",
@@ -20,19 +20,19 @@
         "CSS"
       ],
       "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #a31013, #ed4043)",
-      "colourSecondary": "linear-gradient(to bottom, #a31013, #ed4043)"
+      "colourPrimary": "linear-gradient(135deg, #b30f1e 0%, #ef3b47 65%, #ff6a60 100%)",
+      "colourSecondary": "linear-gradient(135deg, #ffd7dc 0%, #ffeef1 100%)"
     },
     {
       "id": 0,
-      "link": "https://careers.shinedezign.com/",
-      "company": "Shine Dezign Infonet",
-      "title": "Sr. Web Developer",
+      "link": "https://www.stealthtechnocrats.com/",
+      "company": "Stealth Technocrats",
+      "title": "Sr. Software Developer",
       "dateFrom": "Apr 2023",
-      "dateTo": "Jul 2025",
+      "dateTo": "Apr 2026",
       "info": [
-        "Experience in Core PHP and WHMCS for developing and customizing web hosting automation solutions.",
-        "Enhanced WHMCS functionality by implementing custom scripts and optimizing system performance."
+        "Proficient in Core PHP, Laravel, and Node.js for developing and maintaining scalable web applications, backend systems, and enterpriselevel solutions with a focus on performance and clean architecture",
+        "Architected and implemented secure payment gateway integrations,covering transaction processing, error handling, webhook management,and compliance with industry-standard security practices."
       ],
       "stack": [
         "Laravel",
@@ -41,30 +41,8 @@
         "WHMCS"
       ],
       "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #62cd70, #cfefd1)",
-      "colourSecondary": "linear-gradient(to bottom, #62cd70, #cfefd1)"
-    },
-    {
-      "id": 3,
-      "link": "https://narinder-portfolio.vercel.app/",
-      "company": "FREELANCE",
-      "title": "Sr. Software Engineer",
-      "dateFrom": "Jul 2025",
-      "dateTo": "Current",
-      "info": [
-        "Working as a Senior Software Developer, managing multiple client projects across platforms like Upwork, Freelancer, and direct collaborations.",
-        "Skilled in Node.js, Laravel, and Core PHP, delivering high-quality, scalable, and performance-driven applications"
-      ],
-      "stack": [
-        "Node.js",
-        "Next.js",
-        "Core PHP",
-        "Laravel",
-        "WordPress"
-      ],
-      "logowidth": 60,
-      "colourPrimary": "linear-gradient(to bottom, #CA0000, #ed4043)",
-      "colourSecondary": "linear-gradient(to bottom, #CA0000, #ed4043)"
+      "colourPrimary": "linear-gradient(135deg, #2c9d61 0%, #69cf8f 60%, #d4f3de 100%)",
+      "colourSecondary": "linear-gradient(135deg, #d5efe4 0%, #eefaf4 100%)"
     }
   ]
 }
