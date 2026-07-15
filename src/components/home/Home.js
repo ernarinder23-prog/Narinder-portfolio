@@ -85,7 +85,7 @@ const Home = () => {
             <Bounce cascade>
               <div className="resume-container">
                 <a
-                  href="https://drive.google.com/file/d/1ghF1MwWedLfOzco095Mhd0wENsvujIke/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1gaGFq9Z8OirRLmutGfFutVyArzfsjDyh/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Download Narinder Singh's resume"
